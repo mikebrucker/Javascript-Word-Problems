@@ -24,6 +24,7 @@ for (var i = 1; i < 101; i++) {
 }
 
 // 3 - Pig Latin - Pig Latin is a game of alterations played on the English language. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield "anana-bay"). Check out Wikipedia (Links to an external site.)Links to an external site. for more information on rules - try to get as close as possible. - Compose a javascript function that takes in a regular sentence or paragraph and returns the Pig Latin equivalent.
+// Capitalized the finished word if the original word started with a capital letter.
 function capitalize(pigLatinWord) {
     var capitalLetter = pigLatinWord.charAt(0).toUpperCase();
     pigLatinWord = capitalLetter + pigLatinWord.slice(1);
